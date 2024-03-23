@@ -9,6 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
+// note 自动播放场景下，关闭登录弹框后会暂停，需要手动播放。
 (function() {
     'use strict';
 //---------------------
