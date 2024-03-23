@@ -9,6 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
+// 华为云空间超时时间过短，此脚本通过循环操作来保活。
 (function() {
 'use strict';
 
