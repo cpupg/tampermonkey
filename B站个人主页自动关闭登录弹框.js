@@ -9,16 +9,16 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
-// --------------
-console.log("执行脚本")
+(function () {
+  'use strict';
+  // --------------
+  console.log("执行脚本")
 
-let id = setInterval(() => {
-  const dom = document.getElementsByClassName("bili-mini-close-icon");
-  if (dom != null && dom.length > 0) {
-    dom[0].click();
-    console.log("登录弹框关闭完成")
-  }
-}, 100);
+  let id = setInterval(() => {
+    const dom = document.getElementsByClassName("bili-mini-close-icon");
+    if (dom != null && dom.length > 0) {
+      dom[0].click();
+      console.log("登录弹框关闭完成")
+    }
+  }, 100);
 })();

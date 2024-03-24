@@ -9,13 +9,13 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(function () {
+  'use strict';
   // -------------------------
-const dom = document.getElementById("message-panel");
-if (dom != null) {
-  console.log("已移除广告")
-  dom.remove();
-}
+  const dom = document.getElementById("message-panel");
+  if (dom != null) {
+    console.log("已移除广告")
+    dom.remove();
+  }
 
 })();

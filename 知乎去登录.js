@@ -9,15 +9,15 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
-console.log("执行脚本");
-let id = setInterval(() => {
-  const dom = document.getElementsByClassName("Button Modal-closeButton Button--plain");
-  if(dom != null && dom.length > 0) {
-    dom[0].click();
-    clearInterval(id);
-  }
-}, 100);
+(function () {
+  'use strict';
+  console.log("执行脚本");
+  let id = setInterval(() => {
+    const dom = document.getElementsByClassName("Button Modal-closeButton Button--plain");
+    if (dom != null && dom.length > 0) {
+      dom[0].click();
+      clearInterval(id);
+    }
+  }, 100);
 
 })();
