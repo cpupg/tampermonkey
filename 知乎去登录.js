@@ -16,7 +16,8 @@
     const dom = document.getElementsByClassName("Button Modal-closeButton Button--plain");
     if (dom != null && dom.length > 0) {
       dom[0].click();
-      clearInterval(id);
+      // 2024.5.23更新，部分知乎答案展开需要登陆
+      // clearInterval(id);
     }
   }, 100);
 
