@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://ditu.baidu.com/*
+// @match        https://maps.baidu.com/*
+// @match        https://map.baidu.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=baidu.com
 // @grant        none
 // ==/UserScript==
