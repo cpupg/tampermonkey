@@ -16,7 +16,6 @@
     const dom = document.getElementsByClassName("close-btn");
     if (dom != null && dom.length > 0) {
       dom[0].click();
-      clearInterval(id);
     }
   }, 100);
 
